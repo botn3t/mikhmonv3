@@ -18,7 +18,7 @@
 session_start();
 // hide all error
 error_reporting(0);
-if (!isset($_SESSION["mikhmon"])) {
+if (!isset($_SESSION["SIHS "])) {
   header("Location:../admin.php?id=login");
 } else {
 
